@@ -1,0 +1,38 @@
+Exemplos de uso
+
+/(XP[a-z]th)|(JSONPath)/g
+
+Online XPath tester
+ou
+XPrth
+ou
+JSONPath
+
+
+/(XPth)|(Ribafs)/g
+
+XPth
+ou
+Ribafs
+
+
+/(Riba[a-z]s)/g
+
+Ribafs
+
+
+/[a-z]{2,5}/g
+
+ri
+ou
+ribam
+
+
+/(Riba)[a-z]{2,5}/g
+
+Ribafs
+ou
+Ribaferreira (sobra mas ele não reclama, somente reclama quando falta. Segundo ele "o que abunda não atrapalha")
+
+Este abaixo não:
+RibaFS
