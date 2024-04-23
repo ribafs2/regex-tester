@@ -256,8 +256,8 @@ class Cyrilex {
 	}
 	initRegEx() {
 		this.myCodeMirrorSubstitution.setValue('Regular expression');
-		this.myCodeMirrorString.setValue('Online XPath tester');
-		this.myCodeMirrorRegEx.setValue('/(XP[a-z]th)|(JSONPath)/g');	
+		this.myCodeMirrorString.setValue('60420-440');
+		this.myCodeMirrorRegEx.setValue('/^[0-9]{5}\-[0-9]{3}$/');	
 	}
 	generateString() {
 		try {
