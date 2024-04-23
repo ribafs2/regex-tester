@@ -116,9 +116,9 @@ class Cyrilex {
 		if (infinity) {
 			this.setAndDisplay('editor-valid', 'infinity of matchs');
 		} else if (matchArray == null || matchArray.length == 0) {
-			this.setAndDisplay('editor-error', 'No match');
+			this.setAndDisplay('editor-error', 'Não é semelhante');
 		} else {
-			this.setAndDisplay('editor-valid', matchArray.length+' matchs');
+			this.setAndDisplay('editor-valid', matchArray.length+' semeljante(s)');
 			matchArray.forEach(function (match, indexMark) {
 				var before = self.myCodeMirrorString.getValue("\n").substring(0, match.index).split("\n");
 				var find = match.m.split("\n");
